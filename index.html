@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="app.js"></script>
+    <script>
+        
+myfun();
+function myfun(){
+    var ud=prompt("enter Number Or Vowels");
+    if((ud>=`a`)&&(ud<=`z`)||(ud>=`A`)&&(ud<=`Z`)){
+       if(ud==`a`||ud==`A`||ud==`e`||ud==`E`||ud==`I`||ud==`i`||ud==`O`||
+        ud==`o`||ud==`U`||ud==`u`)
+        {
+           document.write("this is Vowels");
+          
+       }
+       else{
+           document.write("this is constant");
+
+       }
+
+    }
+    else{
+        document.write("this is a number");
+    }
+}
+     </script>
+    
+   
+ </body>
+</html>
